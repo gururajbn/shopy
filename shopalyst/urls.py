@@ -24,6 +24,6 @@ urlpatterns = patterns(
     url(r'^admin/', include(admin.site.urls)),
     url(r'^search_caption', views.search),
     url(r'^count/', views.count),
-    url(r'^average/', views.ethnicity)
-
+    url(r'^average/', views.ethnicity),
+    url(r'^social_habits/', views.social)
 )
